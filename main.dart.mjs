@@ -412,6 +412,7 @@ class CompiledApp {
       _1326: f => finalizeWrapper(f, function(x0) { return dartInstance.exports._1326(f,arguments.length,x0) }),
       _1327: (x0,x1) => x0.removeChild(x1),
       _1328: x0 => x0.click(),
+      _1330: x0 => globalThis.URL.revokeObjectURL(x0),
       _1332: Date.now,
       _1334: s => new Date(s * 1000).getTimezoneOffset() * 60,
       _1335: s => {
@@ -873,6 +874,8 @@ class CompiledApp {
       _1800: (d, digits) => d.toFixed(digits),
       _1959: (x0,x1) => { x0.draggable = x1 },
       _1975: x0 => x0.style,
+      _2334: (x0,x1) => { x0.download = x1 },
+      _2359: (x0,x1) => { x0.href = x1 },
       _2904: (x0,x1) => { x0.accept = x1 },
       _2918: x0 => x0.files,
       _2944: (x0,x1) => { x0.multiple = x1 },
